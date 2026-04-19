@@ -1,0 +1,99 @@
+{
+  "socialLinks": [
+    {
+      "id": 1,
+      "platform": "github",
+      "url": "https://github.com/Mysterious786",
+      "icon": "github",
+      "label": "GitHub",
+      "stats": "120 Public Repos"
+    },
+    {
+      "id": 2,
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/saqlain-zarjis-ansari-108b2621b/",
+      "icon": "linkedin",
+      "label": "LinkedIn",
+      "stats": "500+ Connections"
+    },
+    {
+      "id": 3,
+      "platform": "instagram",
+      "url": "https://www.instagram.com/saqlain_zarjis_ansari/",
+      "icon": "Instagram",
+      "label": "Instagram",
+      "stats": "2K+ Followers"
+    },
+    {
+      "id": 4,
+      "platform": "codechef",
+      "url": "https://www.codechef.com/users/saqlain786code",
+      "icon": "code",
+      "label": "CodeChef",
+      "stats": "4★ Chef"
+    },
+    {
+      "id": 5,
+      "platform": "codeforces",
+      "url": "https://codeforces.com/profile/GOJO_GOKU_KURAMA",
+      "icon": "code",
+      "label": "Codeforces",
+      "stats": "Expert (1864)"
+    },
+    {
+      "id": 6,
+      "platform": "leetcode",
+      "url": "https://leetcode.com/u/SZA786/",
+      "icon": "code",
+      "label": "LeetCode",
+      "stats": "Guardian and 1500+ Problems Solved"
+    }
+  ],
+  "codingRatings": [
+    {
+      "platform": "CodeChef",
+      "rating": "4★",
+      "maxRating": "1971",
+      "solved": "500+",
+      "contests": 32
+    },
+    {
+      "platform": "Codeforces",
+      "rating": "Expert",
+      "maxRating": "1863",
+      "solved": "1000+",
+      "contests": 42
+    },
+    {
+      "platform": "LeetCode",
+      "rating": "Guardian (Top 1.2%)",
+      "maxRating": "2164",
+      "contestRating": "2164",
+      "solved": "1500+",
+      "contests": 55,
+      "acceptanceRate": "65%"
+    }
+  ],
+  "profileImages": [
+    {
+      "id": 1,
+      "url": "/my.jpg",
+      "caption": "Me"
+    },
+    {
+      "id": 2,
+      "url": "/pwc.jpg",
+      "caption": "At PwC Connectivity Event"
+    },
+    {
+      "id": 3,
+      "url": "/icpc.jpeg",
+      "caption": "ICPC Regionals Amritapuri 2023"
+    },
+    {
+      "id": 4,
+      "url": "/team.jpeg",
+      "caption": "Team Photo"
+    }
+  ]
+}

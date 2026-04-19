@@ -1,0 +1,46 @@
+{
+  "name": "Saqlain Zarjis Ansari",
+  "title": "Full Stack Developer & Problem Solver",
+  "bio": "I'm a passionate developer with a keen interest in building scalable, user-friendly applications. With a strong foundation in both frontend and backend technologies, I love turning complex problems into simple, intuitive designs.",
+  "summary": "Driven by curiosity and a passion for continuous learning, I combine technical expertise with creative problem-solving to deliver impactful solutions. I thrive in collaborative environments and am always excited about emerging technologies.",
+  "profileImage": "/my.jpg",
+  "skills": {
+    "frontend": ["React", "Next.js", "TypeScript", "Tailwind CSS", "HTML5", "CSS3", "JavaScript","Spring Boot"],
+    "backend": ["Node.js", "Express", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL","Soring Boot","Redis"],
+    "tools": ["Git", "Docker", "Vercel", "AWS", "GitHub", "VS Code", "SonarQube","Kubernetes"]
+  },
+  "personalStats": {
+    "yearsOfExperience": 1,
+    "projectsCompleted": 15,
+    "codingHours": 2000,
+    "learningGoal": "Master system design and Java Backend Development"
+  },
+  "interests": [
+    "Web Development",
+    "Java Backend Development",
+    "Open Source Contribution",
+    "Tech Blogging",
+    "Mentoring Beginners",
+    "Problem Solving"
+  ],
+  "funFacts": [
+    "I write clean code and even cleaner comments",
+    "Coffee is my best coding companion",
+    "I love contributing to open-source projects"
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "field": "Information Technology",
+      "institution": "Haldia Institute of Technology",
+      "year": "2021-2025",
+      "details": "Graduated with honors, focusing on software engineering and web technologies and Java Backend Development"
+    }
+  ],
+  "goals": [
+    "Build products that positively impact millions of users",
+    "Become a recognized open-source contributor",
+    "Share knowledge through technical writing and mentoring",
+    "Master emerging technologies and stay ahead of the curve"
+  ]
+}
