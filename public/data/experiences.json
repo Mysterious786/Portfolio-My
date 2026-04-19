@@ -6,7 +6,7 @@
       "position": "Software Programmer Intern",
       "duration": "Feb 2025 - Aug 2025",
       "location": "Bangalore, Karnataka, India",
-      "description": "Worked as part of the Data & GenAI team, contributing to backend development and system modernization. Developed and maintained ABAP-based backend services and worked with SAP S/4HANA. Also supported Java applications in migration to newer versions. Additionally, worked on a code analyzer project and built responsive React components for a SaaS platform.",
+      "description": "Worked as part of the Data & GenAI team, contributing to backend development and system modernization. Developed and maintained ABAP-based backend services and worked with SAP S/4HANA. Also supported Java applications in migration to newer versions and contributed to a code analyzer project.",
       "skills": ["Java", "ABAP", "SAP S/4HANA", "React", "REST APIs"],
       "highlights": [
         "Contributed to Data & GenAI team projects",
@@ -29,21 +29,6 @@
         "Optimized database indexing and improved slow endpoints",
         "Integrated TypeScript to reduce runtime errors"
       ]
-    },
-    {
-      "id": 3,
-      "company": "AskSenior",
-      "position": "Competitive Programming Mentor",
-      "duration": "2023 - Present",
-      "location": "Remote",
-      "description": "Actively mentored students in Data Structures & Algorithms and competitive programming. Guided learners in problem-solving techniques, contest strategies, and building strong fundamentals. Shared knowledge through structured explanations and content to simplify complex topics.",
-      "skills": ["Data Structures", "Algorithms", "Competitive Programming", "Problem Solving"],
-      "highlights": [
-        "Mentored students on DSA and competitive programming concepts",
-        "Guided learners in solving real contest problems",
-        "Explained complex topics in a simplified and structured way",
-        "Helped peers improve problem-solving and coding efficiency"
-      ]
     }
   ],
   "professional": [
@@ -58,7 +43,7 @@
       "highlights": [
         "Worked as a Data Engineer on SAP HANA, migrating enterprise data to cloud for real-time analytics and reporting",
         "Used Power BI for DQMS operations and data quality monitoring",
-        "Built a GenAI-powered code analyzer using React, Flask, and RAG pipelines, currently used by teams and thousands of employees",
+        "Built a GenAI-powered code analyzer using React, Flask, and RAG pipelines, used by teams and thousands of employees",
         "Integrated vector databases and Azure Blob Storage for scalable data retrieval and storage",
         "Designed a persistence caching system to optimize repeated AI analysis and improve performance",
         "Integrated code editor and AI tools to provide real-time feedback and faster developer workflows",
