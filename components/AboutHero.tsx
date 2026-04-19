@@ -132,7 +132,7 @@ export default function AboutHero({
                 Explore Skills
               </a>
               <a
-                href="#contact"
+                onClick={() => (window.location.href = 'mailto:saqlainzarjisansari@gmail.com')}
                 className="px-8 py-3 border border-primary text-primary rounded-lg hover:bg-primary/10 transition-colors duration-300 font-semibold"
               >
                 Get in Touch
