@@ -2,6 +2,42 @@
   "bestWorks": [
     {
       "id": 1,
+      "title": "AI Task Queue - Async Job Processing Platform",
+      "description": "A production-grade, microservices-based AI job processing system with async task execution, rate limiting, and real-time monitoring.",
+      "image": "/job.png",
+      "technologies": ["Spring Boot", "Next.js", "PostgreSQL", "Redis", "RabbitMQ", "OpenAI API"],
+      "features": [
+        "6 AI job types: Summarize, Classify, Translate, Sentiment, Keywords, Q&A",
+        "Microservices with API Gateway, Core, and Worker services",
+        "JWT auth, rate limiting, and dead letter queue with retry",
+        "Real-time monitoring with Prometheus and Grafana"
+      ],
+      "links": {
+        "live": "https://jobp-two.vercel.app",
+        "github": "https://github.com/Mysterious786/AI-JOB-PROCESSING"
+      },
+      "challenges": "Building scalable async job processing with reliable message queuing and orchestrating multiple microservices"
+    },
+    {
+      "id": 2,
+      "title": "CloudCLI - Multi-Database Backup Tool",
+      "description": "A powerful, production-ready CLI tool for backing up multiple database types to cloud storage with multi-user authentication, email notifications, and a beautiful interactive interface.",
+      "image": "/cloudcli.png",
+      "technologies": ["Java 17", "Spring Boot", "Picocli", "AWS SDK", "PostgreSQL"],
+      "features": [
+        "Multi-user authentication with session management",
+        "Supports MySQL, PostgreSQL, MongoDB, SQLite, Supabase",
+        "Cloud storage: Backblaze B2, AWS S3, Wasabi",
+        "Email notifications and interactive CLI interface"
+      ],
+      "links": {
+        "live": "https://www.npmjs.com/package/@saqlain8442/cloudcli",
+        "github": "https://github.com/Mysterious786/CloudCLI"
+      },
+      "challenges": "Designing a unified backup strategy for multiple database types while maintaining cloud-agnostic storage architecture"
+    },
+    {
+      "id": 3,
       "title": "PDF Upload and Collaborate WebApp",
       "description": "A real-time collaborative platform enabling users to upload, view, and interact on PDF documents. Designed for seamless sharing and collaboration with an intuitive UI.",
       "image": "/proj1.png",
@@ -19,7 +55,7 @@
       "challenges": "Handling real-time collaboration and synchronization across multiple users efficiently"
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "ChatBuddy",
       "description": "A real-time chat application with authentication and scalable backend. Supports seamless communication with optimized data handling and modern UI.",
       "image": "/chatty.png",
@@ -37,7 +73,7 @@
       "challenges": "Ensuring low-latency real-time communication and handling concurrent users"
     },
     {
-      "id": 3,
+      "id": 5,
       "title": "Patient Management System",
       "description": "A distributed healthcare management system built with microservices architecture, enabling efficient patient record handling and real-time communication.",
       "image": "/patient.webp",
@@ -55,7 +91,7 @@
       "challenges": "Designing a scalable distributed system with efficient inter-service communication"
     },
     {
-      "id": 4,
+      "id": 6,
       "title": "E-Commerce Shopping Web App",
       "description": "A full-stack e-commerce platform enabling users to browse products, manage carts, and securely complete purchases. Built with a focus on scalability, clean UI, and seamless user experience.",
       "image": "/ecom.png",
@@ -74,7 +110,7 @@
       "challenges": "Designing scalable backend APIs and handling secure payment workflows while maintaining smooth frontend performance"
     },
     {
-      "id": 5,
+      "id": 7,
       "title": "Siamese Deep Facial Recognition Model",
       "description": "Developed a deep learning-based facial recognition system using Siamese Neural Networks to verify identity by comparing facial embeddings. The model learns similarity between image pairs rather than direct classification, enabling robust real-world recognition.",
       "image": "/siamese.jpg",

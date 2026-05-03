@@ -132,12 +132,18 @@ export default function Hero() {
         </p>
 
         <div ref={buttonsRef} className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-3 rounded-lg bg-gradient-to-r from-primary to-secondary text-white font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105">
+          <a 
+            href="/projects"
+            className="px-8 py-3 rounded-lg bg-gradient-to-r from-primary to-secondary text-white font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105 inline-block text-center"
+          >
             View My Work
-          </button>
-          <button onClick={() => (window.location.href = 'mailto:saqlainzarjisansari@gmail.com')} className="px-8 py-3 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary hover:text-white transition-all duration-300">
+          </a>
+          <a 
+            href="mailto:saqlainzarjisansari@gmail.com"
+            className="px-8 py-3 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary hover:text-white transition-all duration-300 inline-block text-center"
+          >
             Get In Touch
-          </button>
+          </a>
         </div>
 
         {/* Scroll indicator */}

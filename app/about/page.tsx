@@ -6,6 +6,7 @@ import AboutHero from '@/components/AboutHero';
 import SkillsSection from '@/components/SkillsSection';
 import PersonalStats from '@/components/PersonalStats';
 import JourneySection from '@/components/JourneySection';
+import social from '@/public/data/social.json';
 
 interface AboutData {
   name: string;
@@ -39,6 +40,10 @@ interface AboutData {
 export default function AboutPage() {
   const [aboutData, setAboutData] = useState<AboutData | null>(null);
   const [loading, setLoading] = useState(true);
+
+  const socialMap = Object.fromEntries(
+    social.socialLinks.map((item) => [item.platform.toLowerCase(), item.url])
+  ) as Record<string, string>;
 
   useEffect(() => {
     const fetchAboutData = async () => {
@@ -129,13 +134,13 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:saqlainzarjisansari@gmail.com"
               className="px-8 py-3 bg-primary text-white rounded-lg hover:bg-primary/80 transition-colors duration-300 font-semibold"
             >
               Send Me an Email
             </a>
             <a
-              href="/profile"
+              href="/projects"
               className="px-8 py-3 border border-primary text-primary rounded-lg hover:bg-primary/10 transition-colors duration-300 font-semibold"
             >
               View My Work
@@ -143,6 +148,140 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="py-12 px-4 sm:px-6 lg:px-8 border-t border-border bg-background/50">
+        <div className="max-w-6xl mx-auto">
+          {/* Main Footer Content */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            {/* About Section */}
+            <div>
+              <h3 className="text-lg font-bold text-white mb-4">Saqlain Zarjis Ansari</h3>
+              <p className="text-sm text-gray-400 leading-relaxed">
+                Full Stack Developer passionate about building scalable web applications and solving complex problems.
+              </p>
+            </div>
+
+            {/* Quick Links */}
+            <div>
+              <h3 className="text-lg font-bold text-white mb-4">Quick Links</h3>
+              <ul className="space-y-2">
+                <li>
+                  <a href="/" className="text-sm text-gray-400 hover:text-primary transition-colors">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="/about" className="text-sm text-gray-400 hover:text-primary transition-colors">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="/projects" className="text-sm text-gray-400 hover:text-primary transition-colors">
+                    Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="/experience" className="text-sm text-gray-400 hover:text-primary transition-colors">
+                    Experience
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:saqlainzarjisansari@gmail.com" className="text-sm text-gray-400 hover:text-primary transition-colors">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Social Links */}
+            <div>
+              <h3 className="text-lg font-bold text-white mb-4">Connect With Me</h3>
+              <div className="flex flex-col space-y-2">
+                <a 
+                  href={socialMap.github} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-400 hover:text-primary transition-colors"
+                >
+                  GitHub
+                </a>
+                <a 
+                  href={socialMap.linkedin} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-400 hover:text-primary transition-colors"
+                >
+                  LinkedIn
+                </a>
+                <a 
+                  href={socialMap.instagram} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-400 hover:text-primary transition-colors"
+                >
+                  Instagram
+                </a>
+                <a 
+                  href={socialMap.codechef} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-400 hover:text-primary transition-colors"
+                >
+                  CodeChef
+                </a>
+                <a 
+                  href={socialMap.codeforces} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-400 hover:text-primary transition-colors"
+                >
+                  Codeforces
+                </a>
+                <a 
+                  href={socialMap.leetcode} 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-gray-400 hover:text-primary transition-colors"
+                >
+                  LeetCode
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Bottom Bar */}
+          <div className="pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4">
+            <p className="text-sm text-gray-500">
+              &copy; {new Date().getFullYear()} Saqlain Zarjis Ansari. All rights reserved.
+            </p>
+            <div className="flex gap-6">
+              <a 
+                href="mailto:saqlainzarjisansari@gmail.com" 
+                className="text-sm text-gray-500 hover:text-primary transition-colors"
+              >
+                Email
+              </a>
+              <a 
+                href={socialMap.github} 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-gray-500 hover:text-primary transition-colors"
+              >
+                GitHub
+              </a>
+              <a 
+                href={socialMap.linkedin} 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm text-gray-500 hover:text-primary transition-colors"
+              >
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
